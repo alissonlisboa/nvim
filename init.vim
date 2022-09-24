@@ -26,6 +26,7 @@ Plug 'tpope/vim-fugitive'
 " Funcionality
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'preservim/nerdtree'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
