@@ -3,5 +3,6 @@ require('plugins')
 require('lsp')
 require('completion')
 require('telescope-setup')
+require('setup-treesitter')
 
 require('keymaps')
