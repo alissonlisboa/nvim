@@ -9,7 +9,10 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'mg979/vim-visual-multi'
     use 'jiangmiao/auto-pairs'
-    use 'nvim-telescope/telescope.nvim'
+    
+    -- Telescope
+    use {'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} }}
+
     use 'vim-airline/vim-airline'
     use 'tpope/vim-fugitive'
     use 'neovim/nvim-lspconfig'

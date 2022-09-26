@@ -1,7 +1,6 @@
 local o = vim.o
 local g = vim.g
 local cmd = vim.cmd
-local map = vim.keymap.set
 
 
 -- behavior
@@ -29,8 +28,4 @@ o.rnu = true
 o.termguicolors = true
 cmd('colorscheme melange')
 o.backgroud = 'dark'
-
--- bindings
-map('', 'gs', '<ESC>:Git<CR>', {silent = true, remap = true})
-map('', '<Space>', '<Leader>', {silent = true, remap = true})
 
