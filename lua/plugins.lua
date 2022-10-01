@@ -7,8 +7,11 @@ return require('packer').startup(function(use)
 
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+
+    -- functionality
     use 'mg979/vim-visual-multi'
     use 'jiangmiao/auto-pairs'
+    use 'kylechui/nvim-surround'
     
     -- Telescope
     use {'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} }}
@@ -30,7 +33,8 @@ return require('packer').startup(function(use)
     use 'hrsh7th/vim-vsnip'
 
     -- colorscheme
+    use 'folke/tokyonight.nvim'
     use 'savq/melange'
-    -- use 'NTBBloodbath/doom-one.nvim'
+    use 'NTBBloodbath/doom-one.nvim'
 
 end)
