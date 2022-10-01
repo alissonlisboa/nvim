@@ -12,7 +12,8 @@ return require('packer').startup(function(use)
     use 'mg979/vim-visual-multi'
     use 'jiangmiao/auto-pairs'
     use 'kylechui/nvim-surround'
-    
+    use 'numToStr/Comment.nvim'    
+
     -- Telescope
     use {'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} }}
 

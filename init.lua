@@ -5,5 +5,6 @@ require('completion')
 require('telescope-setup')
 require('setup-treesitter')
 require('surround')
+require('comment')
 
 require('keymaps')
