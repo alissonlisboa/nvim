@@ -10,7 +10,7 @@ return require('packer').startup(function(use)
 
     -- functionality
     use 'mg979/vim-visual-multi'
-    use 'jiangmiao/auto-pairs'
+    use 'windwp/nvim-autopairs'
     use 'kylechui/nvim-surround'
     use 'numToStr/Comment.nvim'    
 

@@ -7,5 +7,6 @@ require('setup-treesitter')
 require('surround')
 require('comment')
 require('git')
+require('autopairs')
 
 require('keymaps')
