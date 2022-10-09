@@ -11,6 +11,8 @@ return require('packer').startup(function(use)
     -- functionality
     use 'mg979/vim-visual-multi'
     use 'windwp/nvim-autopairs'
+    use 'windwp/nvim-ts-autotag'
+    use 'mattn/emmet-vim'
     use 'kylechui/nvim-surround'
     use 'numToStr/Comment.nvim'    
 

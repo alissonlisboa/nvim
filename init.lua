@@ -8,5 +8,6 @@ require('surround')
 require('comment')
 require('git')
 require('autopairs')
+require('autotag')
 
 require('keymaps')
