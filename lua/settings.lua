@@ -21,6 +21,7 @@ o.incsearch = true
 o.ignorecase = true
 o.smartcase = true
 o.wrap = false
+o.scrolloff = 8
 
 -- interface
 o.nu = true
