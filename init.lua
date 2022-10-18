@@ -1,3 +1,4 @@
+require('colorscheme') -- must come before settings
 require('settings')
 require('plugins')
 require('lsp')

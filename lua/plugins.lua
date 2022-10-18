@@ -39,5 +39,6 @@ return require('packer').startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'savq/melange'
     use 'NTBBloodbath/doom-one.nvim'
+    use 'ellisonleao/gruvbox.nvim'
 
 end)
