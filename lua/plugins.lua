@@ -19,7 +19,10 @@ return require('packer').startup(function(use)
     -- Telescope
     use {'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} }}
 
-    use 'nvim-lualine/lualine.nvim'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
     use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
     use 'neovim/nvim-lspconfig'
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }

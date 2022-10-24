@@ -10,5 +10,6 @@ require('comment')
 require('git')
 require('autopairs')
 require('autotag')
+require('statusline')
 
 require('keymaps')
