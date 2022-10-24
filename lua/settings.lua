@@ -28,6 +28,6 @@ o.nu = true
 o.rnu = true
 o.termguicolors = true
 o.cursorline = true
-cmd('colorscheme gruvbox')
+cmd('colorscheme tokyonight-moon')
 o.backgroud = 'dark'
 
